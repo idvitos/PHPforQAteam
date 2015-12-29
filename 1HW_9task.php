@@ -58,11 +58,9 @@ echo "</br>";
 echo "<table border='1'>";
 $arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
 foreach ($arr as $value) {
-    $value = $value * 9;
-    $i=1;
     echo "<tr>";
-    echo "<td>" .$i++. "</td>";
-    echo "<td>" .$value. "</td>";
+    echo "<td>" . $value . '*9' . "</td>";
+    echo "<td>" .$value * 9 . "</td>";
     echo "</tr>";
  }
 echo "</table>";
